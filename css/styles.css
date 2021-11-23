@@ -55,13 +55,22 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
+.btn-titl1{
+  padding: 0 0 0 3vw;
+}
+.btn-title{
+  padding: 0;
+}
 .title-btn {
   font-size: 0.8vw;
   padding: 0.4vw;
-  vertical-align: center;
+  overflow: hidden;
 }
-
+.wa-img{
+  background-color: #2DC100;
+  font-size: 1.5vw;
+  border-radius: 0.9vw;
+}
 .logo {
   width: 80%;
   margin: -20% 0 -15% 0;
@@ -71,6 +80,7 @@ a {
   width: 90%;
   margin: -2% auto 2% auto;
 }
+
 
 .carousel-item {
   font-weight: bold;
@@ -431,8 +441,14 @@ a {
   .hide-mobile {
     display: none;
   }
+
   .logo{
-    width: 140%;
+    width: 150%;
+    margin: -40% 0 -15% 0;
+  }
+  .title-btn {
+    font-size: 1vw;
+    padding: 0.4vw;
   }
   .top{
     font-size: 1.2vw;
@@ -464,7 +480,9 @@ a {
     font-size: 6vw;
   }
 }
-
+.btn-mar{
+  margin-bottom: 1vw;
+}
 .carousel {
   position: relative;
 }
