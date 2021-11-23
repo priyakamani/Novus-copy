@@ -349,6 +349,10 @@ text-decoration: underline;
   .card .img-wrapper {
     height: 17em;
   }
+  .example_detail{
+    padding:2vw 0;
+    font-size: 3vw;
+  }
 }
 .carousel{
   position: relative;
