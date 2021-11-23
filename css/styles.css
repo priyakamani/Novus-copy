@@ -24,7 +24,7 @@ a{
 }
 
 .top{
-  font-size: 1vw;
+  font-size: 0.8vw;
   width: 100%;
   margin:0;
   padding: 1vw 0 0 0;
@@ -50,8 +50,9 @@ a{
   color: #ffffff;
 }
 .title-btn{
-  font-size: 1vw;
+  font-size: 0.8vw;
   padding: 0.4vw;
+  vertical-align: center;
 }
 .logo{
   width:80%;
@@ -350,9 +351,37 @@ text-decoration: underline;
     height: 17em;
   }
   .example_detail{
-    padding:2vw 0;
-    font-size: 3vw;
+    padding:2vw 1vw 2vw 0;
+    font-size: 2.8vw;
   }
+  .example_detail h3{
+    font-size: 3.3vw;
+  }
+  .example_head{
+    padding: 0 auto;
+    font-weight: bolder;
+    font-size: 2.9vw;
+  }
+  .salary{
+    font-size: 4.1vw;
+}
+.hide-mobile{
+  display: none;
+}
+.table{
+
+  font-size: 2vw;
+}
+.table-2{
+
+  font-size: 2vw;
+}
+.facts{
+  font-size: 3vw;
+}
+.shead{
+  font-size: 3vw;
+}
 }
 .carousel{
   position: relative;
