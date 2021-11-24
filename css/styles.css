@@ -9,6 +9,14 @@
     display: block;
   }
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 
 a {
   text-decoration: none;
@@ -130,8 +138,11 @@ a {
 }
 
 .example_detail {
-  padding: 2vw 0;
+  padding: 2vw;
   font-size: 1.5vw;
+}
+.example_detail h3 {
+  color: yellow;
 }
 
 .salary {
@@ -168,6 +179,9 @@ a {
 
 .success-img {
   border: 0.95vw solid #AF1E23;
+  border-spacing: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .identity {
@@ -314,7 +328,8 @@ a {
 .data-1 {
   font-weight: bold;
   color: #AF1E23;
-  font-size: 2.5vw;
+  font-size: 2.4vw;
+  padding-bottom: 3vw;
 }
 
 .data-block {
@@ -323,6 +338,34 @@ a {
   background-color: #AF1E23;
   margin: 0.5vw 0;
   padding: 1vw;
+}
+
+.clickable {
+  background: #e02a33;
+  background-image: -webkit-linear-gradient(top, #e02a33, #AF1E23);
+  background-image: -moz-linear-gradient(top, #e02a33, #AF1E23);
+  background-image: -ms-linear-gradient(top, #e02a33, #AF1E23);
+  background-image: -o-linear-gradient(top, #e02a33, #AF1E23);
+  background-image: linear-gradient(to bottom, #e02a33, #AF1E23);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 1.8vw;
+  text-shadow: 0px 0.1vw 0.3vw #ffffff;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 2vw;
+  padding: 1vw 2vw;
+  text-decoration: none;
+}
+
+.clickable:hover {
+  background: #af1e23;
+  background-image: -webkit-linear-gradient(top, #af1e23, #e02a33);
+  background-image: -moz-linear-gradient(top, #af1e23, #e02a33);
+  background-image: -ms-linear-gradient(top, #af1e23, #e02a33);
+  background-image: -o-linear-gradient(top, #af1e23, #e02a33);
+  background-image: linear-gradient(to bottom, #af1e23, #e02a33);
+  text-decoration: none;
 }
 
 .team {
@@ -362,11 +405,12 @@ a {
 .service-img {
   width: 100%;
 }
-
-#carouselExampleControls {
-  background-color: #AF1E23;
+#mobileVideo{
+  display: none;
 }
-
+#carouselExampleControls{
+  background-color: #af1e23;
+}
 .video-group {
   padding: 2vw;
 }
@@ -425,17 +469,18 @@ a {
   }
 
   .example_detail h3 {
-    font-size: 3.3vw;
+    font-size: 3.6vw;
+    font-weight: bolder;
   }
 
   .example_head {
-    padding: 0 auto;
+    padding: 0 2.8vw 0 2.8vw;
     font-weight: bolder;
-    font-size: 2.9vw;
+    font-size: 3.1vw;
   }
 
   .salary {
-    font-size: 4.1vw;
+    font-size: 3.5vw;
   }
 
   .hide-mobile {
@@ -443,7 +488,7 @@ a {
   }
 
   .logo{
-    width: 150%;
+    width: 180%;
     margin: -40% 0 -15% 0;
   }
   .title-btn {
@@ -482,6 +527,13 @@ a {
 }
 .btn-mar{
   margin-bottom: 1vw;
+}
+#mobileVideo{
+  display: relative;
+  background-color: #AF1E23;
+}
+.video-group{
+  padding: 4vw;
 }
 .carousel {
   position: relative;
