@@ -405,9 +405,9 @@ a {
 .service-img {
   width: 100%;
 }
-#mobileVideo{
+/* #mobileVideo{
   display: none;
-}
+} */
 #carouselExampleControls{
   background-color: #af1e23;
 }
