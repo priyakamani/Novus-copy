@@ -72,12 +72,12 @@ a {
 .mail {
   padding: 0;
 }
-
+/*
 .timing {
   vertical-align: middle;
   text-decoration: none;
   color: #ffffff;
-}
+} */
 .btn-titl1{
   padding: 0 0 0 3vw;
 }
@@ -559,15 +559,24 @@ a {
   }
 
   .logo{
-    width: 180%;
+    height: 7.3vh;
+    width: auto;
     margin: -40% 0 -15% 0;
   }
   .title-btn {
-    font-size: 1vw;
+    font-size: 1.3vw;
     padding: 0.4vw;
   }
   .top{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+  }
+  .timing{
+    font-size: 1.12vw;
+    padding:0;
+
+  }
+  .btn-titl1{
+    padding: 0 0 0 0.2vw;
   }
   .bridge_image{
     width: auto;
