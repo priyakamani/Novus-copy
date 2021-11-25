@@ -363,7 +363,9 @@ a {
   text-align: left;
   white-space: initial;
 }
-
+.question p{
+  margin: 0;
+}
 .ans {
   width: 100%;
   font-size: 1.4vw;
@@ -393,10 +395,9 @@ a {
   color: #ffffff;
   font-size: 2vw;
   background-color: #AF1E23;
-  margin: 0.5vw 0;
+  margin: 0.5vw 0 2vw 0;
   padding: 1vw;
 }
-
 .clickable {
   background: #fff200;
   background-image: -webkit-linear-gradient(top, #fff200, #ffdd00);
@@ -518,8 +519,22 @@ a {
 .card img {
   max-height: 100%;
 }
+.team-img{
 
+  display: none;
+}
 @media (max-width: 767px) {
+  .team-img{
+
+    display: block;
+  }
+  #team-img{
+    margin: 2vh auto;
+    height: 60vh;
+    width: auto;
+    max-width: 95vw;
+    display: block;
+  }
   .card .img-wrapper {
     height: 17em;
   }
@@ -659,7 +674,8 @@ a {
     font-size: 2vw;
   }
 .data-1{
-  padding: 0.5vh 0;
+  padding: 1vh 0;
+  font-weight: bolder;
 }
   .shead {
     font-size: 3vw;

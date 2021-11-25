@@ -536,7 +536,9 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
         </div>
         <div class="dropdown qNa">
           <button class="btn question" onclick="myFunction('ans1')" onmouseout="displayHide('ans1')">
-            1. How long does it take to get a PR in Canada?
+            <p>
+              1. How long does it take to get a PR in Canada?
+            </p>
           </button>
           <div class="ans" id="ans1" aria-labelledby="dropdownMenuLink2">
             <p class="dropdown-item ">The process starts with getting your IELTS scores & your ECA report. The next step is to
@@ -715,8 +717,7 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
           <br />
           EVALUATE YOUR PROFILE - GET A FREE CONSULTATION FROM US!
         </div>
-        <br />
-        <div class="mid-align">
+        <div class="click-mid mid-align">
 
           <a class="btn clickable mid-align" href="https://api.whatsapp.com/send?phone=+919606500971&text=Hello Team Novus, I am reaching out for my profile evaluation and consultation.
   %0aMy details are;
@@ -728,8 +729,30 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
   Thank you" target="_blank" role="button">CLICK HERE TO GET AN EVALUATION REPORT WORTH $250 CAD ABSOLUTELY FREE!
           </a>
         </div>
+        <div class="team-img">
+          <img  id="team-img" src="images/11-01.png" alt="Teammate 1">
+          <script>
+          const interval = setInterval(function() {
+             var img=document.getElementById("team-img")
+             alert(img.src);
+             if(img.src == "images/11-01.png"){
 
-        <div class="row teams">
+               img.src="images/12-01.png"
+             }
+             else if(img.src=="images/12-01.png")
+             {
+               img.src="images/13-01.png"
+
+             }else{
+               img.src = "images/11-01.png"
+             }
+           }, 3000);
+
+          clearInterval(interval);
+          </script>
+        </div>
+
+        <div class="row teams hide-mobile">
           <div class="col-lg-4 col-md-4 ">
             <img class="team team-1" src="images/11-01.png" alt="Teammate 1" />
           </div>
