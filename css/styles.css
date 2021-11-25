@@ -364,10 +364,6 @@ a {
   white-space: initial;
 }
 
-.faq-5 {
-  padding: 0.96vw 0 0.96vw 0.4vw;
-}
-
 .ans {
   width: 100%;
   font-size: 1.4vw;
@@ -633,7 +629,9 @@ a {
     width: auto;
     height: 50vh;
   }
-
+  .designation{
+    font-size: 2.5vw;
+  }
   .chead {
     font-size: 3vw;
   }
