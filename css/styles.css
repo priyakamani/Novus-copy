@@ -16,6 +16,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 .Loop {
@@ -524,10 +525,6 @@ a {
   max-height: 100%;
 }
 
-.team-img {
-  display: none;
-}
-
 .showPhone {
   display: none;
 }
@@ -538,7 +535,7 @@ a {
     display: block;
   }
 
-  #team-img {
+  .team-img {
     margin: 4vh auto;
     height: 50vh;
     width: auto;
@@ -703,12 +700,12 @@ a {
   }
 
   .services {
-    height: 170vh;
+    height: auto;
   }
 
-  .top-side {
+  /* .top-side {
     height: 60vh;
-  }
+  } */
 
   .service-detail {
     font-size: 3.6vw;
@@ -733,14 +730,16 @@ a {
 
   .service-img {
     width: auto;
-    max-width: 100%;
-    height: 80vh;
+    max-width: 90%;
     margin: auto;
     text-align: center;
   }
 
   .cityAdd {
-    font-size: 2.5vw;
+    font-size: 3vw;
+  }
+  .branches p{
+    margin: 0;
   }
 
   .wa-img {
