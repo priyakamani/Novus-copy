@@ -239,6 +239,7 @@ a {
 .designation {
   color: #AF1E23;
   font-weight: bold;
+  font-size: 0.9vw;
 }
 
 .compare {
@@ -355,7 +356,7 @@ a {
   margin: 0 0 1vw 0;
   /* padding: 1vw;
   border: none;*/
-  border-radius: 3vw 0 0 3vw;
+  border-radius: 3vw;
   text-decoration: none;
   color: #ffffff;
   width: 90%;
@@ -376,9 +377,10 @@ a {
   width: 100%;
   font-size: 1.4vw;
   font-weight: bold;
-  margin: 2vw 1vw;
   padding: 1vw;
   text-decoration: none;
+  display: none;
+  text-align: left;
 }
 
 .dropdown-item {
@@ -421,7 +423,6 @@ a {
   padding: 1vw 2vw;
   text-decoration: none;
 }
-
 .clickable:hover {
   background: #ffdd00;
   background-image: -webkit-linear-gradient(top, #ffdd00, #fff200);
@@ -435,11 +436,11 @@ a {
 .team {
   margin: 5vh 0;
   width: 80%;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 
 .team:hover {
-  filter: grayscale(0%);
+  filter: grayscale(100%);
 }
 
 .team-2 {
