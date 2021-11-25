@@ -680,11 +680,6 @@ a {
   margin-bottom: 1vw;
 }
 
-#mobileVideo {
-  display: relative;
-  background-color: #AF1E23;
-}
-
 .video-group {
   padding: 4vw;
 }
@@ -726,6 +721,10 @@ a {
 .cityname {
   font-size: 2vw;
   font-weight: bolder;
+}
+.cityAdd{
+  font-size: 0.8vw;
+  display: none;
 }
 
 .footer {

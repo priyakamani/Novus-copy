@@ -674,8 +674,10 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
       </div>
       <script>
         function displayShow(y) {
-          var x = document.getElementById(y);
-          x.style.display = "block";
+          var x = document.getElementsByClassName(y);
+          for (var i = 0; i < x.length; i++) {
+             x.item(i).style.display = "block";
+          }
         }
 
         function displayHide(y) {
@@ -683,7 +685,12 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
           x.style.display = "none";
 
         }
-
+        function displayHideClass(y) {
+          var x = document.getElementsByClassName(y);
+          for (var i = 0; i < x.length; i++) {
+             x.item(i).style.display = "none";
+          }
+}
         function myFunction(y) {
           var x = document.getElementById(y);
           if (x.style.display === "none") {
@@ -993,7 +1000,7 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
       </div>
     </section>
     <section class=" fourteen grey-back mid-align" id="fourteen">
-      <div class="grey-back mid-align side">
+      <div class="grey-back mid-align side" onmouseover="displayShow('cityAdd')" onmouseout="displayHideClass('cityAdd')">
 
 
         <div class="row ">
@@ -1005,26 +1012,44 @@ Thank you" target="_blank" role="button"><i class="fa fa-whatsapp fa-2x wa-img">
           <div class="col-md-2 col-6 col-xs-6 branches " data-toggle="modal" data-target="#myModal12">
             <img class="branches-image" src="images/dubai.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Dubai</p>
+            <p id="dubaiAdd" class="cityAdd">
+              <b>Address:</b>  Novus Immigration services,
+Sheikh rashid tower
+Floor 25 , Executive office -09,  DM building no 14, DWTC , Dubai , UAE
+            </p>
           </div>
           <div class="col-md-2 col-6 col-xs-6 branches " data-toggle="modal" data-target="#myModal13">
             <img class="branches-image" src="images/bangalore.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Bangalore</p>
+            <p id="dubaiAdd" class="cityAdd">
+              Address: #84 2nd Floor, Brigade Rd, Ashok Nagar, Bengaluru, Karnataka 560025
+            </p>
           </div>
           <div class="col-md-2 col-6 col-xs-6 branches " data-toggle="modal" data-target="#myModal14">
             <img class="branches-image" src="images/delhi.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Delhi</p>
+            <p id="dubaiAdd" class="cityAdd">
+              Address: Building No, 55, Panchkuian Marg, near RK Ashram Metro Station, Bharat Nagar, Connaught Place, New Delhi, Delhi 110001
+            </p>
           </div>
           <div class="col-md-2 col-6 col-xs-6 branches " data-toggle="modal" data-target="#myModal15">
             <img class="branches-image" src="images/hyderabad.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Hyderabad</p>
+            <p id="dubaiAdd" class="cityAdd">
+              Address: H No, 3rd Floor, KNR Square, Opp. The Platina, 1-60/8, Gachibowli, Hyderabad, Telangana 500032
+            </p>
           </div>
           <div class="col-md-2 col-6 col-xs-6 branches " data-toggle="modal" data-target="#myModal16">
             <img class="branches-image" src="images/chennai.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Chennai</p>
+            <p id="dubaiAdd" class="cityAdd">
+              Address: Old.No.9,New, No.17, Seethammal Rd, Seetammal Colony, Alwarpet, Chennai, Tamil Nadu 600018
+            </p>
           </div>
           <div class="col-md-1 col-6 col-xs-6 " data-toggle="modal" data-target="#myModal17">
             <img class="branches-image" src="images/Australia.png" alt="Canada Immigration Consultants In Bangalore">
             <p class="cityname">Australia</p>
+
           </div>
         </div>
       </div>
