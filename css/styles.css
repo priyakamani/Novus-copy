@@ -332,10 +332,13 @@ a {
   font-size: 1.5vw;
   font-weight: normal;
 }
-
+.comp-img-div{
+  padding: 2vw 0 2vw 0;
+  text-align: center;
+}
 .comp-img {
-  padding: 5vw 0 2vw 0;
-  width: 100%;
+  padding: 0;
+  width: 70%;
 }
 
 .faqs {
@@ -692,6 +695,10 @@ a {
 
   .facts {
     font-size: 3vw;
+  }
+  .comp-img {
+    padding: 0;
+    width: 85%;
   }
 
   .faq-head {
