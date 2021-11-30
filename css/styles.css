@@ -725,7 +725,7 @@ a {
 
 
   .service-detail {
-    font-size: 3.6vw;
+    font-size: 3.7vw;
   }
 
   .shead {
@@ -748,13 +748,14 @@ a {
   .full-img {
     width: auto;
     max-width: 90vw;
-    margin: 5vh 5vw;
-    height: 82vh;
+    padding: 5vh 5vw;
+    height: 90vh;
 
   }
   .image{
     text-align: center;
       background-color: #3A3A3A;
+      height: 100vh;
   }
   #canadaAdd{
     margin:0;
